@@ -102,3 +102,29 @@ Training: 2021-10-21 09:42:26,833-[lfw][2000]Accuracy-Highest: 0.77833
 Training: 2021-10-21 09:43:19,111-[cfp_fp][2000]XNorm: 34.778450
 Training: 2021-10-21 09:43:19,111-[cfp_fp][2000]Accuracy-Flip: 0.63386+-0.02521
 Training: 2021-10-21 09:43:19,111-[cfp_fp][2000]Accuracy-Highest: 0.63386
+Training: 2021-10-21 14:03:20,717-rank_id: 0
+Training: 2021-10-21 14:03:49,389-softmax weight init successfully!
+Training: 2021-10-21 14:03:49,389-softmax weight mom init successfully!
+Training: 2021-10-21 14:03:49,390-: loss                     arcface
+Training: 2021-10-21 14:03:49,390-: network                  r18
+Training: 2021-10-21 14:03:49,390-: resume                   False
+Training: 2021-10-21 14:03:49,390-: output                   /output/webface_r18_1024
+Training: 2021-10-21 14:03:49,390-: dataset                  webface
+Training: 2021-10-21 14:03:49,390-: embedding_size           1024
+Training: 2021-10-21 14:03:49,390-: sample_rate              1
+Training: 2021-10-21 14:03:49,390-: fp16                     False
+Training: 2021-10-21 14:03:49,390-: momentum                 0.9
+Training: 2021-10-21 14:03:49,390-: weight_decay             0.0005
+Training: 2021-10-21 14:03:49,390-: batch_size               64
+Training: 2021-10-21 14:03:49,390-: lr                       0.1
+Training: 2021-10-21 14:03:49,390-: rec                      /data
+Training: 2021-10-21 14:03:49,390-: num_classes              10572
+Training: 2021-10-21 14:03:49,390-: num_image                forget
+Training: 2021-10-21 14:03:49,390-: num_epoch                1
+Training: 2021-10-21 14:03:49,391-: warmup_epoch             -1
+Training: 2021-10-21 14:03:49,391-: decay_epoch              [20, 30, 40]
+Training: 2021-10-21 14:03:49,391-: val_targets              ['lfw', 'cfp_fp', 'agedb_30']
+Training: 2021-10-21 14:03:49,391-: warmup_step              -4967
+Training: 2021-10-21 14:03:49,391-: total_step               4967
+Training: 2021-10-21 14:03:49,391-: decay_step               [99349, 149024, 198698]
+Training: 2021-10-21 14:04:37,936-Reducer buckets have been rebuilt in this iteration.
