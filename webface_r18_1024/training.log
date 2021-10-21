@@ -128,3 +128,86 @@ Training: 2021-10-21 14:03:49,391-: warmup_step              -4967
 Training: 2021-10-21 14:03:49,391-: total_step               4967
 Training: 2021-10-21 14:03:49,391-: decay_step               [99349, 149024, 198698]
 Training: 2021-10-21 14:04:37,936-Reducer buckets have been rebuilt in this iteration.
+Training: 2021-10-21 15:01:57,832-rank_id: 0
+Training: 2021-10-21 15:02:03,648-softmax weight init successfully!
+Training: 2021-10-21 15:02:03,649-softmax weight mom init successfully!
+Training: 2021-10-21 15:02:03,649-: loss                     arcface
+Training: 2021-10-21 15:02:03,649-: network                  r18
+Training: 2021-10-21 15:02:03,649-: resume                   False
+Training: 2021-10-21 15:02:03,650-: output                   /output/webface_r18_1024
+Training: 2021-10-21 15:02:03,650-: dataset                  webface
+Training: 2021-10-21 15:02:03,650-: embedding_size           1024
+Training: 2021-10-21 15:02:03,650-: sample_rate              1
+Training: 2021-10-21 15:02:03,650-: fp16                     False
+Training: 2021-10-21 15:02:03,650-: momentum                 0.9
+Training: 2021-10-21 15:02:03,650-: weight_decay             0.0005
+Training: 2021-10-21 15:02:03,650-: batch_size               64
+Training: 2021-10-21 15:02:03,650-: lr                       0.1
+Training: 2021-10-21 15:02:03,650-: rec                      /data
+Training: 2021-10-21 15:02:03,650-: num_classes              10572
+Training: 2021-10-21 15:02:03,650-: num_image                forget
+Training: 2021-10-21 15:02:03,650-: num_epoch                1
+Training: 2021-10-21 15:02:03,650-: warmup_epoch             -1
+Training: 2021-10-21 15:02:03,650-: decay_epoch              [20, 30, 40]
+Training: 2021-10-21 15:02:03,651-: val_targets              ['lfw', 'cfp_fp', 'agedb_30']
+Training: 2021-10-21 15:02:03,651-: warmup_step              -2483
+Training: 2021-10-21 15:02:03,651-: total_step               2483
+Training: 2021-10-21 15:02:03,651-: decay_step               [49674, 74512, 99349]
+Training: 2021-10-21 15:03:21,144-Reducer buckets have been rebuilt in this iteration.
+Training: 2021-10-21 15:03:49,563-Speed 442.98 samples/sec   Loss 43.5620   LearningRate 0.0250   Epoch: 0   Global Step: 100   Required: 0 hours
+Training: 2021-10-21 15:04:04,229-Speed 436.58 samples/sec   Loss 43.4381   LearningRate 0.0250   Epoch: 0   Global Step: 150   Required: 0 hours
+Training: 2021-10-21 15:04:19,166-Speed 428.67 samples/sec   Loss 42.9158   LearningRate 0.0250   Epoch: 0   Global Step: 200   Required: 0 hours
+Training: 2021-10-21 15:04:34,103-Speed 428.65 samples/sec   Loss 42.5985   LearningRate 0.0250   Epoch: 0   Global Step: 250   Required: 0 hours
+Training: 2021-10-21 15:04:48,862-Speed 433.82 samples/sec   Loss 42.3508   LearningRate 0.0250   Epoch: 0   Global Step: 300   Required: 0 hours
+Training: 2021-10-21 15:05:03,566-Speed 435.44 samples/sec   Loss 41.8918   LearningRate 0.0250   Epoch: 0   Global Step: 350   Required: 0 hours
+Training: 2021-10-21 15:05:18,280-Speed 435.16 samples/sec   Loss 41.4829   LearningRate 0.0250   Epoch: 0   Global Step: 400   Required: 0 hours
+Training: 2021-10-21 15:05:33,025-Speed 434.25 samples/sec   Loss 41.1388   LearningRate 0.0250   Epoch: 0   Global Step: 450   Required: 0 hours
+Training: 2021-10-21 15:05:47,830-Speed 432.46 samples/sec   Loss 40.9045   LearningRate 0.0250   Epoch: 0   Global Step: 500   Required: 0 hours
+Training: 2021-10-21 15:06:02,643-Speed 432.23 samples/sec   Loss 40.5166   LearningRate 0.0250   Epoch: 0   Global Step: 550   Required: 0 hours
+Training: 2021-10-21 15:06:17,444-Speed 432.62 samples/sec   Loss 40.2034   LearningRate 0.0250   Epoch: 0   Global Step: 600   Required: 0 hours
+Training: 2021-10-21 15:06:32,233-Speed 432.93 samples/sec   Loss 39.8886   LearningRate 0.0250   Epoch: 0   Global Step: 650   Required: 0 hours
+Training: 2021-10-21 15:06:47,013-Speed 433.22 samples/sec   Loss 39.7063   LearningRate 0.0250   Epoch: 0   Global Step: 700   Required: 0 hours
+Training: 2021-10-21 15:07:01,794-Speed 433.17 samples/sec   Loss 39.4561   LearningRate 0.0250   Epoch: 0   Global Step: 750   Required: 0 hours
+Training: 2021-10-21 15:07:16,584-Speed 432.91 samples/sec   Loss 39.0822   LearningRate 0.0250   Epoch: 0   Global Step: 800   Required: 0 hours
+Training: 2021-10-21 15:07:31,355-Speed 433.47 samples/sec   Loss 38.7721   LearningRate 0.0250   Epoch: 0   Global Step: 850   Required: 0 hours
+Training: 2021-10-21 15:07:46,148-Speed 432.82 samples/sec   Loss 38.4905   LearningRate 0.0250   Epoch: 0   Global Step: 900   Required: 0 hours
+Training: 2021-10-21 15:08:00,979-Speed 431.70 samples/sec   Loss 38.2947   LearningRate 0.0250   Epoch: 0   Global Step: 950   Required: 0 hours
+Training: 2021-10-21 15:08:15,811-Speed 431.71 samples/sec   Loss 37.9016   LearningRate 0.0250   Epoch: 0   Global Step: 1000   Required: 0 hours
+Training: 2021-10-21 15:08:30,648-Speed 431.53 samples/sec   Loss 37.5666   LearningRate 0.0250   Epoch: 0   Global Step: 1050   Required: 0 hours
+Training: 2021-10-21 15:08:45,479-Speed 431.73 samples/sec   Loss 37.4876   LearningRate 0.0250   Epoch: 0   Global Step: 1100   Required: 0 hours
+Training: 2021-10-21 15:09:00,331-Speed 431.10 samples/sec   Loss 37.0383   LearningRate 0.0250   Epoch: 0   Global Step: 1150   Required: 0 hours
+Training: 2021-10-21 15:09:15,185-Speed 431.06 samples/sec   Loss 36.8580   LearningRate 0.0250   Epoch: 0   Global Step: 1200   Required: 0 hours
+Training: 2021-10-21 15:09:30,018-Speed 431.67 samples/sec   Loss 36.4580   LearningRate 0.0250   Epoch: 0   Global Step: 1250   Required: 0 hours
+Training: 2021-10-21 15:09:44,875-Speed 430.96 samples/sec   Loss 36.1228   LearningRate 0.0250   Epoch: 0   Global Step: 1300   Required: 0 hours
+Training: 2021-10-21 15:09:59,679-Speed 432.53 samples/sec   Loss 35.7968   LearningRate 0.0250   Epoch: 0   Global Step: 1350   Required: 0 hours
+Training: 2021-10-21 15:10:14,515-Speed 431.55 samples/sec   Loss 35.5375   LearningRate 0.0250   Epoch: 0   Global Step: 1400   Required: 0 hours
+Training: 2021-10-21 15:10:29,339-Speed 431.92 samples/sec   Loss 35.3230   LearningRate 0.0250   Epoch: 0   Global Step: 1450   Required: 0 hours
+Training: 2021-10-21 15:10:44,174-Speed 431.62 samples/sec   Loss 35.1819   LearningRate 0.0250   Epoch: 0   Global Step: 1500   Required: 0 hours
+Training: 2021-10-21 15:10:59,000-Speed 431.87 samples/sec   Loss 34.7852   LearningRate 0.0250   Epoch: 0   Global Step: 1550   Required: 0 hours
+Training: 2021-10-21 15:11:13,846-Speed 431.27 samples/sec   Loss 34.5053   LearningRate 0.0250   Epoch: 0   Global Step: 1600   Required: 0 hours
+Training: 2021-10-21 15:11:28,654-Speed 432.39 samples/sec   Loss 34.1352   LearningRate 0.0250   Epoch: 0   Global Step: 1650   Required: 0 hours
+Training: 2021-10-21 15:11:43,491-Speed 431.54 samples/sec   Loss 33.8665   LearningRate 0.0250   Epoch: 0   Global Step: 1700   Required: 0 hours
+Training: 2021-10-21 15:11:58,316-Speed 431.89 samples/sec   Loss 33.5634   LearningRate 0.0250   Epoch: 0   Global Step: 1750   Required: 0 hours
+Training: 2021-10-21 15:12:13,159-Speed 431.39 samples/sec   Loss 33.2658   LearningRate 0.0250   Epoch: 0   Global Step: 1800   Required: 0 hours
+Training: 2021-10-21 15:12:27,995-Speed 431.57 samples/sec   Loss 33.0964   LearningRate 0.0250   Epoch: 0   Global Step: 1850   Required: 0 hours
+Training: 2021-10-21 15:12:42,832-Speed 431.54 samples/sec   Loss 32.8601   LearningRate 0.0250   Epoch: 0   Global Step: 1900   Required: 0 hours
+Training: 2021-10-21 15:12:57,665-Speed 431.67 samples/sec   Loss 32.3377   LearningRate 0.0250   Epoch: 0   Global Step: 1950   Required: 0 hours
+Training: 2021-10-21 15:13:12,490-Speed 431.90 samples/sec   Loss 32.1517   LearningRate 0.0250   Epoch: 0   Global Step: 2000   Required: 0 hours
+Training: 2021-10-21 15:13:57,038-[lfw][2000]XNorm: 31.860721
+Training: 2021-10-21 15:13:57,039-[lfw][2000]Accuracy-Flip: 0.80983+-0.01642
+Training: 2021-10-21 15:13:57,039-[lfw][2000]Accuracy-Highest: 0.80983
+Training: 2021-10-21 15:14:48,445-[cfp_fp][2000]XNorm: 29.477056
+Training: 2021-10-21 15:14:48,445-[cfp_fp][2000]Accuracy-Flip: 0.63171+-0.02421
+Training: 2021-10-21 15:14:48,445-[cfp_fp][2000]Accuracy-Highest: 0.63171
+Training: 2021-10-21 15:15:32,901-[agedb_30][2000]XNorm: 27.722549
+Training: 2021-10-21 15:15:32,902-[agedb_30][2000]Accuracy-Flip: 0.53933+-0.02148
+Training: 2021-10-21 15:15:32,902-[agedb_30][2000]Accuracy-Highest: 0.53933
+Training: 2021-10-21 15:15:47,811-Speed 41.21 samples/sec   Loss 31.9760   LearningRate 0.0250   Epoch: 0   Global Step: 2050   Required: 0 hours
+Training: 2021-10-21 15:16:02,736-Speed 429.01 samples/sec   Loss 31.7504   LearningRate 0.0250   Epoch: 0   Global Step: 2100   Required: 0 hours
+Training: 2021-10-21 15:16:17,745-Speed 426.61 samples/sec   Loss 31.3344   LearningRate 0.0250   Epoch: 0   Global Step: 2150   Required: 0 hours
+Training: 2021-10-21 15:16:32,754-Speed 426.58 samples/sec   Loss 31.3271   LearningRate 0.0250   Epoch: 0   Global Step: 2200   Required: 0 hours
+Training: 2021-10-21 15:16:47,725-Speed 427.68 samples/sec   Loss 31.2063   LearningRate 0.0250   Epoch: 0   Global Step: 2250   Required: 0 hours
+Training: 2021-10-21 15:17:02,648-Speed 429.05 samples/sec   Loss 30.7384   LearningRate 0.0250   Epoch: 0   Global Step: 2300   Required: 0 hours
+Training: 2021-10-21 15:17:17,584-Speed 428.70 samples/sec   Loss 30.5916   LearningRate 0.0250   Epoch: 0   Global Step: 2350   Required: 0 hours
+Training: 2021-10-21 15:17:32,495-Speed 429.40 samples/sec   Loss 30.0883   LearningRate 0.0250   Epoch: 0   Global Step: 2400   Required: 0 hours
+Training: 2021-10-21 15:17:47,450-Speed 428.16 samples/sec   Loss 29.9984   LearningRate 0.0250   Epoch: 0   Global Step: 2450   Required: 0 hours
